@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Carrefour_Atacadao_BackEnd.props" />
+</Project>

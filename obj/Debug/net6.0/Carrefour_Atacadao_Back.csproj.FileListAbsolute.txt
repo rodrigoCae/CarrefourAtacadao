@@ -1,0 +1,7 @@
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.csproj.AssemblyReference.cache
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.GeneratedMSBuildEditorConfig.editorconfig
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.AssemblyInfoInputs.cache
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.AssemblyInfo.cs
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.csproj.CoreCompileInputs.cache
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.MvcApplicationPartsAssemblyInfo.cs
+C:\teste\Teste_Carrefour_Atacadao\obj\Debug\net6.0\Carrefour_Atacadao_Back.MvcApplicationPartsAssemblyInfo.cache
