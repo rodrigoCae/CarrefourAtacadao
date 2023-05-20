@@ -10,12 +10,12 @@ TODO: Guide users through getting your code up and running on their own system. 
 
 # Build and Test
 TODO: Como funciona a aplicacao. 
-1. Clientes: endpoints para criaÁ„o de clientes unicamente!
-2. Enderecos: endpoints apenas de endereÁos, para manutenÁ„o como alteraÁ„o e possivel exclusao sem a necessidade de exccuir o cliente!
+1. Clientes: endpoints para cria√ß√£o de clientes unicamente!
+2. Enderecos: endpoints apenas de endere√ßos, para manuten√ß√£o como altera√ß√£o e possivel exclusao sem a necessidade de exccuir o cliente!
 3. Cidades: endpoints para cadastro de cidades!
-4. ClienteEndereco: funcionalidade completa solicitada, busca por Dapper e cadastros por entityframework!
-5. OBS: Acrescentar no dockerfile a vari·vel de ambiente SQLCONNSTR_DBTeste com a string de conex„o para o banco de dados para docker!
-6. OBS: Alterar o arquivo CarrefourAtacadaoContext comentando linha 30 e descomentando 31 para funcionar localmente!
+4. ClienteEndereco: funcionalidade completa solicitada, busca por Dapper e cadastros por entityframeworkcom respectivas valida√ß√µes!
+5. OBS: Acrescentar no dockerfile a vari√°vel de ambiente SQLCONNSTR_DBTeste com a string de conex√£o para o banco de dados para o docker!
+6. OBS: Alterar o arquivo CarrefourAtacadaoContext comentando linha 30 e descomentando 31 para funcionar localmente, alterando a connectionstring obviamente pela local da empresa!
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
