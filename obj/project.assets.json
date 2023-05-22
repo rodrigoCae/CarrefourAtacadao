@@ -11494,11 +11494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\teste\\Teste_Carrefour_Atacadao\\Carrefour_Atacadao_BackEnd.csproj",
+      "projectUniqueName": "C:\\Carrefour_Atacadao\\CarrefourAtacadao\\Carrefour_Atacadao_BackEnd.csproj",
       "projectName": "Carrefour_Atacadao_BackEnd",
-      "projectPath": "C:\\teste\\Teste_Carrefour_Atacadao\\Carrefour_Atacadao_BackEnd.csproj",
+      "projectPath": "C:\\Carrefour_Atacadao\\CarrefourAtacadao\\Carrefour_Atacadao_BackEnd.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\teste\\Teste_Carrefour_Atacadao\\obj\\",
+      "outputPath": "C:\\Carrefour_Atacadao\\CarrefourAtacadao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
