@@ -87,9 +87,18 @@ namespace Carrefour_Atacadao_BackEnd.Controllers
             var cliente = dbContext.TbClientes.Find(id);
             if (cliente != null)
             {
-                cliente = _mapper.Map<TbCliente>(clienteDTO);
+                //cliente = _mapper.Map<TbCliente>(clienteDTO);
 
-                dbContext.TbClientes.Update(cliente);
+                //dbContext.TbClientes.Update(cliente);
+
+                cliente.Nome = clienteDTO.Nome;
+                cliente.Rg = clienteDTO.Rg;
+                cliente.Email = clienteDTO.Email;
+                cliente.Cpf = clienteDTO.Cpf;
+                cliente.DataNascimento = clienteDTO.DataNascimento;
+                cliente.Telefone = clienteDTO.Telefone;
+                cliente.CodEmpresa = clienteDTO.CodEmpresa;
+
                 dbContext.SaveChanges();
 
                 return Ok(cliente);

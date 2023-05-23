@@ -160,9 +160,13 @@ namespace Carrefour_Atacadao_BackEnd.Controllers
             var clienteEndereco = dbContext.TbClienteEnderecos.Find(id);
             if (clienteEndereco != null)
             {
-                clienteEndereco = _mapper.Map<TbClienteEndereco>(clienteEnderecoDTO);
+                //clienteEndereco = _mapper.Map<TbClienteEndereco>(clienteEnderecoDTO);
 
-                dbContext.TbClienteEnderecos.Update(clienteEndereco);
+                //dbContext.TbClienteEnderecos.Update(clienteEndereco);
+
+                clienteEndereco.ClienteId = clienteEnderecoDTO.ClienteId;
+                clienteEndereco.EnderecoId = clienteEnderecoDTO.EnderecoId;
+
                 dbContext.SaveChanges();
 
                 return Ok(clienteEndereco);

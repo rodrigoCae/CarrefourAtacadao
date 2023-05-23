@@ -6,7 +6,6 @@ namespace Carrefour_Atacadao_BackEnd.DTO
 
     public partial class TbClienteDTO
     {
-        public int Id { get; set; }
 
         public string? Nome { get; set; }
 

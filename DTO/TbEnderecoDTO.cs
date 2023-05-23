@@ -5,7 +5,6 @@ namespace Carrefour_Atacadao_BackEnd.DTO {
 
     public partial class TbEnderecoDTO
     {
-        public int Id { get; set; }
 
         public string? Rua { get; set; }
 

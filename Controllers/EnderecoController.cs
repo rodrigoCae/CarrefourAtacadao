@@ -73,9 +73,18 @@ namespace Carrefour_Atacadao_BackEnd.Controllers
             var endereco = dbContext.TbEnderecos.Find(id);
             if (endereco != null)
             {
-                endereco = _mapper.Map<TbEndereco>(enderecoDTO);
+                //endereco = _mapper.Map<TbEndereco>(enderecoDTO);
 
-                dbContext.TbEnderecos.Update(endereco);
+                //dbContext.TbEnderecos.Update(endereco);
+
+                endereco.Rua = enderecoDTO.Rua;
+                endereco.Numero = enderecoDTO.Numero;
+                endereco.Bairro = enderecoDTO.Bairro;
+                endereco.Cep = enderecoDTO.Cep;
+                endereco.Complemento = enderecoDTO.Complemento;
+                endereco.TipoEndereco = enderecoDTO.TipoEndereco;
+                endereco.CidadeId = enderecoDTO.CidadeId;
+
                 dbContext.SaveChanges();
 
                 return Ok(endereco);

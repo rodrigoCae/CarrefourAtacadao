@@ -73,9 +73,12 @@ namespace Carrefour_Atacadao_BackEnd.Controllers
             var cidade = dbContext.TbCidades.Find(id);
             if (cidade != null)
             {
-                cidade = _mapper.Map<TbCidade>(cidadeDTO);
+                //cidade = _mapper.Map<TbCidade>(cidadeDTO);
+                cidade.Nome = cidadeDTO.Nome;
+                cidade.Estado = cidadeDTO.Estado;
 
-                dbContext.TbCidades.Update(cidade);
+
+                //dbContext.TbCidades.Update(cidade);
                 dbContext.SaveChanges();
 
                 return Ok(cidade);
